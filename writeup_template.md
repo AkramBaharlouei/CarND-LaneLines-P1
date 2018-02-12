@@ -28,9 +28,12 @@ My pipeline consisted of 5 steps. First, read in the image and then  converte to
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-I still think only relying on lanes won't be enough for lane detection as the lanes could be unclear due to road conditions or light.
+My pipeline worked pretty well with first visedo but not much for the second video as it was more curvy.
+Practical view:I still think only relying on lanes won't be enough for lane detection as the lanes could be unclear due to road conditions or light.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-Would be good to have a sense of distance and not just relying on lanes in order for the car to stay in lanes. Hence, if lane is unclear in parts of the road car still can stay on the lane by keeping the proper distance.
+I think for curves we might need some sort of calibration as they hard to fit in a line.
+
+Practical: Would be good to have a sense of distance and not just relying on lanes in order for the car to stay in lanes. Hence, if lane is unclear in parts of the road car still can stay on the lane by keeping the proper distance.
